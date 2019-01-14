@@ -1,0 +1,15 @@
+{
+  "name": "Problem-StreamToGenerator",
+  "version": "1.0.0",
+  "description": "Demonstration of problem about how to connect a stream to a generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=app node usingbuffer.js",
+    "test": "DEBUG=app node challenged.js"
+  },
+  "author": "bayeslife",
+  "license": "ISC",
+  "dependencies": {
+    "funprog": "^1.12.6"
+  }
+}
