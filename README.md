@@ -69,6 +69,8 @@ The generator is required to pass into the transformation pipeline.
 But this declaration isnt right.
 We dont want to define the function on each iteration of the promise, instead we want to use the function to resolve the promise on each iteration.
 
+The fundamental problem is how to define the callback within the promise so that the stream can be coupled to the generator.
+
 But how can we do this???
 
 ----
@@ -99,3 +101,8 @@ function makeCallbackGenerator() {
 }
 ```
 Is there a simpler way to achieve this without a buffer?
+
+-----
+
+The working workaround code is committed into this repository and can be run with
+```npm start```
