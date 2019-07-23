@@ -1,5 +1,7 @@
 # Async Stream Generator  Problem
 
+posted to stack overflow [here](https://stackoverflow.com/questions/48101479/javascript-async-generator)
+
 ## Context
 
 Assume there is a *data stream* that is producing values.
